@@ -16,10 +16,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/DHowett/go-plist"
+	"howett.net/plist"
 	"github.com/andrianbdn/iospng"
-	"gitlab.com/omnarayan/androidbinary"
-	"gitlab.com/omnarayan/androidbinary/apk"
+	"github.com/shogo82148/androidbinary"
+	"github.com/shogo82148/androidbinary/apk"
 )
 
 var reInfoPlist = regexp.MustCompile(`Payload/[^/]+/Info\.plist`)
