@@ -16,10 +16,10 @@ import (
 	"regexp"
 	"strings"
 
-	"howett.net/plist"
 	"github.com/andrianbdn/iospng"
 	"github.com/omnarayan/androidbinary"
 	"github.com/omnarayan/androidbinary/apk"
+	"howett.net/plist"
 )
 
 var reInfoPlist = regexp.MustCompile(`Payload/[^/]+/Info\.plist`)
