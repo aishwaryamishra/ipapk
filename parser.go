@@ -18,8 +18,8 @@ import (
 
 	"howett.net/plist"
 	"github.com/andrianbdn/iospng"
-	"github.com/shogo82148/androidbinary"
-	"github.com/shogo82148/androidbinary/apk"
+	"github.com/omnarayan/androidbinary"
+	"github.com/omnarayan/androidbinary/apk"
 )
 
 var reInfoPlist = regexp.MustCompile(`Payload/[^/]+/Info\.plist`)
